@@ -19,15 +19,27 @@ ul {
   list-style-type: none;
 }
 
-#header {
+header {
   height: 300px;
-  margin-bottom: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-top: 30px;
+}
+
+#left-header {
+  height: 100%;
+  width: 48%;
+  margin-right: 2%;
+  float: left;
+}
+
+#right-header {
+  height: 100%;
+  width: 48%;
+  margin-left: 2%;
+  float: right;
 }
 
 #basic-info {
-  float: right;
+  float: left;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -35,7 +47,7 @@ ul {
 
 #gravatar {
   border-radius: 150px;
-  float: left;
+  float: right;
 }
 
 #email {
