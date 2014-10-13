@@ -1,13 +1,56 @@
 html {
-  font-family: monospace;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: monospace;*/
   text-align: center;
 }
 
-img {
-  border-radius: 25px;
+#page {
+  width: 60%;
+  margin: 0 auto 0 auto;
+  padding: 20 20 20 20;
+}
+
+h1,h2,h3,h4,h5,h6,p,li,nav {
+  padding: 5 5 5 5;
 }
 
 ul {
   display: inline;
   list-style-type: none;
+}
+
+#gravatar {
+  height: 300px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#basic-info {
+  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+img {
+  border-radius: 25px;
+  float: left;
+}
+
+#email {
+  font-weight: 100;
+}
+
+nav ul li {
+  display: inline;
+}
+
+h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+p, .list {
+  font-size: 10pt;
 }
