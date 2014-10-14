@@ -4,9 +4,13 @@ html {
   text-align: center;
 }
 
+body {
+  background-color: rgba(149, 146, 174, 0.12);
+}
+
 #page {
   width: 75%;
-  margin: 0 auto 0 auto;
+  margin: 30 auto 30 auto;
   padding: 20 20 20 20;
 }
 
