@@ -1,11 +1,81 @@
+@font-face {
+  font-family: HalloSans;
+  src: url('Hallo sans.otf');
+}
+
+@font-face {
+  font-family: HalloSansLight;
+  src: url('Hallo sans light.otf');
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
-  /*font-family: monospace;*/
+  font-weight: 300;
   text-align: center;
+  line-height: 30px;
 }
 
 body {
-  background-color: rgba(149, 146, 174, 0.12);
+  background-color: rgba(75, 143, 74, 0.15);
+  color: rgb(26, 26, 26);
+}
+
+p {
+  margin: 10px 0;
+}
+
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 30px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+h1, h2, h3 {
+  line-height: 40px;
+}
+
+h1 {
+  font-size: 39px;
+}
+
+h2 {
+  font-size: 31px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+h4 {
+  font-size: 17px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 11px;
+}
+
+ul, ol {
+  padding: 0;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+li {
+  line-height: 30px;
+  list-style-type: none;
 }
 
 #page {
@@ -14,18 +84,12 @@ body {
   padding: 20px 20px 20px 20px;
 }
 
-h1,h2,h3,h4,h5,h6,p,li,nav {
-  padding: 5px 5px 5px 5px;
-}
-
-ul {
-  display: inline;
-  list-style-type: none;
-}
-
 header {
   height: 300px;
-  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgb(6, 18, 3);
+  color: white;
 }
 
 #left-header {
@@ -54,7 +118,15 @@ header {
   float: right;
 }
 
+#name {
+  font-size: 50px;
+  font-family: HalloSans;
+  font-weight: 100;
+}
+
 #email {
+  font-family: HalloSansLight;
+  font-size: 36px;
   font-weight: 100;
 }
 
@@ -71,11 +143,16 @@ a:hover {
   color: rgb(202, 0, 0);
 }
 
-h2 {
-  padding-top: 15px;
-  padding-bottom: 15px;
+p, .list {
+  font-size: 16px;
 }
 
-p, .list {
-  font-size: 10pt;
+section {
+  padding: 10px 0 10px 0;
+}
+
+hr {
+  border-bottom: 1px solid rgb(6, 18, 3);
+  width: 600px;
+  margin: 0 auto;
 }
