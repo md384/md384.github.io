@@ -88,13 +88,13 @@ header {
 
 #left-header {
   height: 100%;
-  width: 30%;
+  width: 35%;
   float: left;
 }
 
 #right-header {
   height: 100%;
-  width: 70%;
+  width: 65%;
   float: right;
 }
 
@@ -106,7 +106,7 @@ header {
 
 #gravatar {
   width: 150px;
-  border-radius: 150px;
+  border-radius: 15px;
   float: right;
 }
 
