@@ -1,8 +1,9 @@
 html {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   line-height: 30px;
+  color: #5E5E5E;
 }
 
 body {
@@ -18,12 +19,11 @@ em {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: rgb(26, 26, 26);
+  color: rgb(34, 34, 34);
   margin: 10px 0;
   font-family: inherit;
   font-weight: 400;
   line-height: 30px;
-  color: inherit;
   text-rendering: optimizelegibility;
 }
 
@@ -70,6 +70,7 @@ li {
 
 b {
   font-weight: 400;
+  color: rgb(54, 54, 54);
 }
 
 #page {
@@ -111,17 +112,21 @@ header {
 }
 
 #name {
+  color: white;
   font-size: 36px;
-  font-weight: 100;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
 }
 
 #email {
+  color: white;
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
 }
 
 #summary {
-  padding-bottom: 0px;
+  padding-bottom: 10px;
 }
 
 .inner-section {
@@ -134,7 +139,7 @@ nav ul li {
 
 a {
   text-decoration: none;
-  color: rgb(70, 16, 101);
+  color: rgb(46, 34, 122);
 }
 
 a:hover {
@@ -146,11 +151,11 @@ p, .list {
 }
 
 section {
-  padding: 10px 0 10px 0;
+  padding: 10px 0 20px 0;
 }
 
 hr {
-  border-bottom: 1px solid rgb(6, 18, 3);
-  width: 600px;
+  border-bottom: 1px solid rgba(6, 18, 3, 0.49);
+  width: 300px;
   margin: 0 auto;
 }
