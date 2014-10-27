@@ -18,7 +18,12 @@ em {
   font-style: italic;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: rgb(34, 34, 34);
   margin: 10px 0;
   font-family: inherit;
@@ -27,7 +32,9 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizelegibility;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   line-height: 40px;
 }
 
@@ -55,11 +62,15 @@ h6 {
   font-size: 11px;
 }
 
-ul, ol {
+ul,
+ol {
   padding: 0;
 }
 
-ul ul, ul ol, ol ol, ol ul {
+ul ul,
+ul ol,
+ol ol,
+ol ul {
   margin-bottom: 0;
 }
 
@@ -146,7 +157,8 @@ a:hover {
   color: rgb(202, 0, 0);
 }
 
-p, .list {
+p,
+.list {
   font-size: 14px;
 }
 
